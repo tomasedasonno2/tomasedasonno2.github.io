@@ -12,9 +12,9 @@ Our dataframe initially very messy and had tons of 0s and negatives, an
 While our initial approach was to find the station with the highest average traffic, we thought that to be more rigorous, we needed a better metric. Our client was going to deploy people to a few subway stations, and they are likely not going to be able to camp there for more than a few hours. So, what we needed to do was to find the stations with the highest average PEAK traffic. Plotting out the traffic for a station:
 
 
-![]({{ site.url }}/images/blog1_1.JPG)
+![test]({{ site.url }}/images/blog1_1.JPG)
 
 
 We wanted to find the stations with the consistently highest peaks. So we created 7 more dataframes from the above process and put them all together, grouped by station, found their max, and averaged them. Here are our results:
 
-![]({{ site.url }}/images/blog1_2.JPG)
+![test]({{ site.url }}/images/blog1_2.JPG)
